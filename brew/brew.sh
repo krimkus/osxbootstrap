@@ -11,7 +11,7 @@ brew_path=`which brew`
 if [[ ! -f $brew_path ]]
 then 
   echo "Installing Homebrew, a good OS X package manager..."
-  successfully ruby <(curl -fsS https://raw.github.com/mxcl/homebrew/go)
+  successfully ruby <(curl -fsSL https://raw.github.com/mxcl/homebrew/go/install)
 fi
 
 echo "Putting Homebrew location earlier in PATH..." # similar to https://github.com/thoughtbot/laptop/blob/master/mac)
