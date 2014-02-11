@@ -18,8 +18,9 @@ The files are organized as follows:
 
 Installation
 ============
+First, install XCode from the Mac App Store.
 
-Run the following:
+Then, run the following:
 
 	git clone git://github.com/krimkus/OSXBootstrap.git ~/.bootstrap 
 	cd ~/.bootstrap && ./bootstrap.sh
