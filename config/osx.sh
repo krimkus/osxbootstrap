@@ -152,7 +152,7 @@ defaults write NSGlobalDomain AppleShowAllExtensions -bool true
 defaults write com.apple.finder _FXShowPosixPathInTitle -bool true
 
 # Finder: show path bar
-defaults write com.apple.finder ShowPathBar -boolean
+defaults write com.apple.finder ShowPathbar -bool true
 
 # Finder: disable the warning when changing a file extension
 defaults write com.apple.finder FXEnableExtensionChangeWarning -bool false
