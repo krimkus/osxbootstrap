@@ -46,6 +46,13 @@ else
 fi
 
 
+################################################################[ OSX ]#########
+echo "Adding a local Dev folder and adding a default requirements_local.txt file to it."
+
+mkdir ~/Dev
+mv $DOTFILES_DIR/config/requirements_local.txt ~/Dev/requirements_local.txt
+
+
 ################################################################[ Flash drive settings ]##
 if [[ $SSD ]]
 then
