@@ -12,9 +12,6 @@ alias cd..='..'
 alias ll="ls -ltr"
 alias ga="git -am"
 
-alias sss="~/ssh_lacewing.sh"
-alias work=". ~/work_on.sh"
-
 # Show/hide hidden files in Finder (https://github.com/mathiasbynens/dotfiles/blob/master/.aliases)
 alias show="defaults write com.apple.finder AppleShowAllFiles -bool true && killall Finder"
 alias hide="defaults write com.apple.finder AppleShowAllFiles -bool false && killall Finder"

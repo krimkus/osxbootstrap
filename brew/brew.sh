@@ -9,7 +9,7 @@ successfully() {
 ################################################################[ BREW ]########
 brew_path=`which brew`
 if [[ ! -f $brew_path ]]
-then 
+then
   echo "Installing Homebrew, a good OS X package manager..."
   successfully ruby <(curl -fsSL https://raw.github.com/mxcl/homebrew/go/install)
 fi
@@ -37,6 +37,10 @@ echo "Updating some tools..."
   brew install git
   brew install unrar
 
+  brew tap mas-cli/tap
+  brew tap-pin mas-cli/tap
+  brew install mas
+
 echo "Installing essential software..."
   #export HOMEBREW_CASK_OPTS="--appdir=/Applications"
   brew cask install dropbox
@@ -48,17 +52,22 @@ echo "Installing essential software..."
   brew cask install bettertouchtool
   brew cask install coconutbattery
   brew cask install daisydisk
+  brew cask install firefox
 
 echo "Installing dev tools..."
-  brew install cmake
-  brew cask install cmake # -> Kitware gui
-  brew cask install x-quartz
-  brew install imagemagick
-  brew install graphviz
   brew cask install sourcetree
   brew cask install iterm2
   brew install postgresql
   brew install readline
+
+echo "Signing into the App Store..."
+  mas signin --dialog
+
+echo "Installing apps from the App Store..."
+  mas lucky 1Password
+  mas lucky Acorn
+  mas lucky OmniFocus
+  mas lucky Postbox
 
 ## An example of an app that needs to be manually installed
 # echo "Downloading MacTex package for you (manual install!)..."

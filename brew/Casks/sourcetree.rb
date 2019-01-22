@@ -1,6 +1,6 @@
 class Sourcetree < Cask
-  url 'http://downloads.atlassian.com/software/sourcetree/SourceTree_1.5.8.dmg'
+  url 'https://product-downloads.atlassian.com/software/sourcetree/ga/Sourcetree_3.0.1_205.zip'
   homepage 'http://www.sourcetreeapp.com'
-  version '1.5.8'
-  sha1 '3a6fab8e8c2e28070e07bfea2096c372a1ad6cc5'
+  version '3.0.1_205'
+  sha1 'b672e3d90a46c76aff94c53f4f02852547dd4369f9e2a561245ff5379bd28a99'
 end
