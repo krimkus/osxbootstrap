@@ -86,14 +86,6 @@ defaults write pbs NSServicesStatus -dict-add '"(null) - copy file path - runWor
 ################################################################[ The End ]#####
 echo "DONE!"
 echo "Remember that some stuff may only be operative after reboot (or simple user log out)"
-echo "Take a look at Reminders.app to see what to do next (will open automatically)"
-  
-automator -i "Register Bartender" $DOTFILES_DIR/util/reminder.workflow
-automator -i "Register DaisyDisk" $DOTFILES_DIR/util/reminder.workflow
-automator -i "Review all other app/sw licenses!" $DOTFILES_DIR/util/reminder.workflow
-automator -i "Cleanup all unwanted brew/cask app aliases in /Applications" $DOTFILES_DIR/util/reminder.workflow
-automator -i "Install apps purchased on the Mac AppStore" $DOTFILES_DIR/util/reminder.workflow
-open "/Applications/Reminders.app"
 
 echo -e "\n\x1B[00;33m Special thanks to fbeeper and \x1B[00;34m https://github.com/fbeeper/fBootstrap \x1B[00m"
 echo -e "\x1B[00;33m All comments, ideas, or code will be appreciated! \x1B[00m \n"
