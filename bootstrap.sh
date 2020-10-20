@@ -53,23 +53,10 @@ mkdir ~/Dev
 mv $DOTFILES_DIR/config/requirements_local.txt ~/Dev/requirements_local.txt
 
 
-################################################################[ Flash drive settings ]##
-if [[ $SSD ]]
-then
-  echo "Setting RootFS to mount with 'noatime'..."
-  successfully sh $DOTFILES_DIR/config/AlwaysMountRootFSWithNoatime_MacOSX.sh
-fi
-
-
 ################################################################[ ZSH customizations ]##
 echo "Adding some general customizations to zsh..."
 successfully ln -s $DOTFILES_DIR/config/general.zsh ~/.oh-my-zsh/custom/general.zsh
 echo "(i) Use ~/.localrc for private customizations"
-
-
-################################################################[ Dock Links ]##
-echo "Run Dropbox to configure its folder..."
-successfully open /Applications/Dropbox.app
 
 
 ################################################################[ Services ]####

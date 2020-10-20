@@ -51,3 +51,7 @@ ZSH_THEME="agnoster"
 DEFAULT_USER="kyle"
 
 ssh-add
+
+# Use pyenv
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"

@@ -50,10 +50,8 @@ What you get
 An essential pack of software for your Mac:
 
 * [Homebrew](http://mxcl.github.com/homebrew/)
-* [Homebrew-Cask](https://github.com/phinze/homebrew-cask) SUPER HANDY!!!
-* [Zsh](http://www.zsh.org) + [Oh my
-  sh!](https://github.com/robbyrussell/oh-my-zsh)!
-* [Dropbox](https://www.dropbox.com) 
+* [Homebrew-Cask](https://github.com/phinze/homebrew-cask)
+* [Zsh](http://www.zsh.org) + [Oh my zsh!](https://github.com/robbyrussell/oh-my-zsh)
 * [The Unarchiver](http://wakaba.c3.cx/s/apps/unarchiver.html) 
 * [Google Chrome](https://www.google.com/intl/en/chrome/browser/)
 * [VLC Media Player](http://www.videolan.org/vlc/)
@@ -62,16 +60,16 @@ An essential pack of software for your Mac:
 * [BetterTouchTool](http://blog.boastr.net)
 * [Coconutbattery](http://www.coconut-flavour.com/coconutbattery/)
 * [DaisyDisk](http://www.daisydiskapp.com)
+* [Transmit](https://panic.com/transmit)
+* [1Password](https://1password.com)
 
-You also get these tools for developement:
+You also get these tools for development:
 
-* [CMake + CMake GUI](http://www.cmake.org)
-* [X-Quartz](http://xquartz.macosforge.org)
-* [Imagemagick](http://www.imagemagick.org)
-* [Graphviz](http://www.graphviz.org)
-* [SourceTree](http://www.sourcetreeapp.com)
-* [iTerm2](http://www.sourcetreeapp.com)
-* [Makeicns](http://www.amnoid.de/icns/makeicns.html)
+* [Nova](https://nova.app)
+* [Fork](https://git-fork.com)
+* [iTerm2](https://www.iterm2.com)
+* [Notion](https://notion.so)
+* [Pyenv](https://github.com/pyenv/pyenv#homebrew-on-macos)
 * [Postgresql](https://wiki.postgresql.org/wiki/Homebrew)
 * [Readline](https://pypi.python.org/pypi/readline)
 
@@ -91,7 +89,7 @@ Installing homebrew currently prompts to install dev tools because it isn't by d
 Turn on (or warn) full-disk encryption if installing on a laptop
 Customize finder sidebar:
 * Hide all-my-files, movies, music, pictures, bonjour, idisk
-* Show ~, ~/Dev, boot disk 
+* Show ~, ~/Code, boot disk 
 
 Customize Alfred and Spotlight more:
 * Launch Alfred at login
@@ -99,56 +97,13 @@ Customize Alfred and Spotlight more:
 * change Alfred hotkey to command-space
 
 Customize iTerm2:
-* Set theme to http://ethanschoonover.com/solarized
+* Set theme to https://draculatheme.com/iterm
 * Set windows to open Columns: 120, Rows: 60
-* Set font to Menlo Powerline, bold 11pt https://github.com/Lokaltog/powerline-fonts
-
-Customize Messages:
-* add accounts
-* make sure history is being saved
-* set my background color: clear
-* set sender's background color: aqua
-* Turned off all sound notifications
-
-Sublime Text:
-* copy in license
-* install Sublime Package Control
-* install SublimeCodeIntel, SublimeLinter
-* add Soda Themes: 
-	* cd ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/
-	* git clone https://github.com/mrlundis/Monokai-Dark-Soda.tmTheme "Theme - Monokai"
-* sudo ln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" /bin/subl
-
-Install the following apps, or remind to install from the App Store:
-* Fantastical
-* Aperture
-* Trasmit
-* Cinch
-* Textwrangler
-* Alfred
-* Caffeine
-* iWork
-* Evernote
-* Postbox
-* 1Password
-* mysql-workbench
-* Photoshop
-* Stay (if a laptop)
-* Omnigraffle
-* SuperDuper
-* Sublime Text
+* Set font to Menlo Powerline, regular 14pt https://github.com/Lokaltog/powerline-fonts
 
 Code to add to this repo:
-* copy in ~/work_on.sh
-* copy in Eject app (if a laptop)
-* sudo easy_install pip
-* sudo pip install virtualenv
-* sudo pip install djenesis
 * check that mysql and postgres are working properly, add Django db_settings defaults
 * remove default mac apps from the dock
-* add adobe IPs to config
-* Downloaded Trim Enabler (if SSD)
-* Turn off hard drive sleep (if SSD only)
 
 Add tasks to the Reminders app to do the following:
 * Copy in private keys
@@ -167,10 +122,6 @@ I kept as much references as I could (in-line with the code) to the work of othe
 
 * Code adapted from [Thoughtbot's
   Laptop](https://github.com/thoughtbot/laptop) has an [MIT License](https://raw.github.com/thoughtbot/laptop/master/LICENSE).
-
-* [Root FS 'noatime' mounting](https://gist.github.com/pklaus/931579) comes from
-  another unlicensed code. Thanks to [Philipp
-  Klaus](https://gist.github.com/pklaus/931579).
 
 * Code that is not already licensed is free software, and may be redistributed under the terms specified in the LICENSE file.
 
