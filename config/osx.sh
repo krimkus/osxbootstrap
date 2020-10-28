@@ -257,6 +257,11 @@ defaults write com.apple.iTunes NSUserKeyEquivalents -dict-add "Target Search Fi
 # Spotlight: disable Dictionary results
 defaults write com.apple.spotlight DictionaryLookupEnabled -bool false
 
+# Adjust how long before display is put to sleep when plugged in
+sudo pmset -a displaysleep 30
+# Adjust how long before display is put to sleep when on battery
+sudo pmset -b displaysleep 15
+
 
 # Cleanup
 # ----------------------------------------------------------------------
