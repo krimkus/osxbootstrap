@@ -36,6 +36,7 @@ echo "Installing homebrew-cask... (easy .app install automation)"
 echo "Updating some tools..."
   brew install git
   brew install unrar
+  brew install kryptco/tap/kr
 
   brew tap mas-cli/tap
   brew tap-pin mas-cli/tap
@@ -55,11 +56,13 @@ echo "Installing essential software..."
   brew cask install spotify
   brew cask install the-unarchiver
   brew cask install vlc
+  brew cask install zoomus
 
 echo "Installing dev tools..."
+  brew cask install chromedriver
   brew cask install nova
   brew cask install fork
-  brew cask install pyenv
+  brew install pyenv
   brew cask install iterm2
   brew install postgresql
   brew cask install notion
@@ -72,7 +75,7 @@ echo "Signing into the App Store..."
 echo "Installing apps from the App Store..."
   mas lucky 1Password
   mas lucky Acorn
-  mas lucky "Fantastical 3"
+  mas lucky Fantastical
   mas lucky Paprika
   mas lucky "Reeder 3"
   mas lucky Sketch
@@ -80,6 +83,7 @@ echo "Installing apps from the App Store..."
   mas lucky Transmit
   mas lucky Xcode
   mas lucky "Pixelmator Pro"
+  mas lucky Wireguard
 
 ## An example of an app that needs to be manually installed
 # echo "Downloading MacTex package for you (manual install!)..."

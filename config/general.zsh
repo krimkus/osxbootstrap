@@ -30,7 +30,6 @@ export HISTSIZE=100000
 export HISTFILE="$HOME/.zshistory"
 export SAVEHIST=$HISTSIZE
 export HISTCONTROL=erasedups
-shopt -s histappend
 
 # Use vim as the editor
 export EDITOR=vim

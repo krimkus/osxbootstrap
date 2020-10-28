@@ -62,6 +62,7 @@ An essential pack of software for your Mac:
 * [DaisyDisk](http://www.daisydiskapp.com)
 * [Transmit](https://panic.com/transmit)
 * [1Password](https://1password.com)
+* [Wireguard VPN](https://www.wireguard.com/)
 
 You also get these tools for development:
 
